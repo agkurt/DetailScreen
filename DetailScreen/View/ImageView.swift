@@ -14,7 +14,7 @@ struct ImageView: View {
 
     
     var body: some View {
-        image // image eklendi
+         image // image eklendi
         //UIScreen.main.bounds.width * 0.3 örnek olarak verilirse bu sayede ekrana orantılı bir şekilde frame verilebilir.
             .resizable() // ekrana düzgünce sığdırdı.
             .aspectRatio(contentMode: .fit)
